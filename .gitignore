@@ -1,1 +1,7 @@
 .vscode/
+
+#Jekyll stuff
+Gemfile
+Gemfile.lock
+_site/
+.jekyll-cache
