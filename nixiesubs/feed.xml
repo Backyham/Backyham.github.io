@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-11-13T01:17:10+08:00</updated><id>/feed.xml</id><title type="html">辉光字幕组 NixieSubs</title><subtitle>是谁在凝望，寒夜尽头迷离的辉光</subtitle><entry><title type="html">辉光字幕组字幕样式</title><link href="/2017/11/09/ASS_style.html" rel="alternate" type="text/html" title="辉光字幕组字幕样式" /><published>2017-11-09T00:00:00+08:00</published><updated>2017-11-09T00:00:00+08:00</updated><id>/2017/11/09/ASS_style</id><content type="html" xml:base="/2017/11/09/ASS_style.html"><![CDATA[<p><code class="language-plaintext highlighter-rouge">.ass</code>文件开头定义了字幕文件的全局样式，将以下内容覆盖至文件开头即可套用。</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[Script Info]
+; 辉光字幕组样式模板
+; https://github.com/Kilo19/NixieVideoKit
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+PlayResX: 1280
+PlayResY: 720
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Microsoft YaHei,35,&amp;H00FFFFFF,&amp;H000000FF,&amp;H00000000,&amp;H00000000,0,0,0,0,100,100,0,0,1,0,0,2,0,0,8,1
+Style: 辉中,文泉驿微米黑,45,&amp;H00FFFFFF,&amp;H000000FF,&amp;H006E4216,&amp;H00000000,-1,0,0,0,100,100,0.5,0,1,2.8,0.2,2,0,0,10,1
+Style: 辉英,Tahoma,35,&amp;H00FFFFFF,&amp;H000000FF,&amp;H003B3C3D,&amp;H00000000,0,0,0,0,100,100,1,0,1,2.8,0.2,2,0,0,10,1
+Style: 辉注,文泉驿微米黑,36,&amp;H00000000,&amp;H000000FF,&amp;H00FFFFFF,&amp;H00000000,0,0,0,0,100,100,1,0,1,3,0.7,9,10,10,10,1
+Style: LTT intro,Noto Sans CJK SC Medium,60,&amp;H00494949,&amp;H000000FF,&amp;H00000000,&amp;H00000000,0,0,0,0,100,100,0,0,1,0,0,5,10,10,10,1
+</code></pre></div></div>
+
+<p>更多工具、使用详情和Python脚本可前往<a href="https://github.com/Kilo19/NixieVideoKit">NixieVideoKit</a> GitHub Repo了解。</p>]]></content><author><name>kilo</name></author><summary type="html"><![CDATA[.ass文件开头定义了字幕文件的全局样式，将以下内容覆盖至文件开头即可套用。 [Script Info] ; 辉光字幕组样式模板 ; https://github.com/Kilo19/NixieVideoKit Title: Default Aegisub file ScriptType: v4.00+ WrapStyle: 0 ScaledBorderAndShadow: yes YCbCr Matrix: TV.601 PlayResX: 1280 PlayResY: 720 [V4+ Styles] Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding Style: Default,Microsoft YaHei,35,&amp;H00FFFFFF,&amp;H000000FF,&amp;H00000000,&amp;H00000000,0,0,0,0,100,100,0,0,1,0,0,2,0,0,8,1 Style: 辉中,文泉驿微米黑,45,&amp;H00FFFFFF,&amp;H000000FF,&amp;H006E4216,&amp;H00000000,-1,0,0,0,100,100,0.5,0,1,2.8,0.2,2,0,0,10,1 Style: 辉英,Tahoma,35,&amp;H00FFFFFF,&amp;H000000FF,&amp;H003B3C3D,&amp;H00000000,0,0,0,0,100,100,1,0,1,2.8,0.2,2,0,0,10,1 Style: 辉注,文泉驿微米黑,36,&amp;H00000000,&amp;H000000FF,&amp;H00FFFFFF,&amp;H00000000,0,0,0,0,100,100,1,0,1,3,0.7,9,10,10,10,1 Style: LTT intro,Noto Sans CJK SC Medium,60,&amp;H00494949,&amp;H000000FF,&amp;H00000000,&amp;H00000000,0,0,0,0,100,100,0,0,1,0,0,5,10,10,10,1 更多工具、使用详情和Python脚本可前往NixieVideoKit GitHub Repo了解。]]></summary></entry><entry><title type="html">招募启事</title><link href="/c-recruit" rel="alternate" type="text/html" title="招募启事" /><published>2015-06-24T00:00:00+08:00</published><updated>2015-06-24T00:00:00+08:00</updated><id>/recruit</id><content type="html" xml:base="/c-recruit"><![CDATA[<p>辉光字幕组提供有偿视频字幕翻译服务，接受中-英语言对委托，在此招募各路有志之士加入我们。<br />
+我们的主要客户为莱纳斯传媒集团（Linus Media Group），加拿大Youtube科技媒体，同时也是Youtube最大的视频博主之一。</p>
+
+<h2 id="工资待遇">工资待遇</h2>
+
+<p>翻译工资每分钟 USD$3.70, 不需要打轴。<br />
+工资月结，没有最低限制。</p>
+
+<p>入组后积累足够经验且质量上佳者可晋升校对。校对工作另计工作量和工资。</p>
+
+<h2 id="应征者要求">应征者要求</h2>
+
+<ul>
+  <li>对翻译工作有兴趣，有足够英语理解能力和中文写作水平，了解机器翻译的能力极限和普遍水平。</li>
+  <li>经常观看英文视频（包括各视频平台无字幕英文原声视频和英文原声影视剧等），尤其是Linus Media Group旗下各频道视频（LinusTechTips、TechQuickie、ShortCircuit、Mac Address等）。</li>
+  <li>了解中英科技术语，能理解深度技术测评与剖析，对不理解、不了解的领域和术语等有通过网络搜索即可迅速理解并简要解释的能力。</li>
+  <li>下笔严谨、耳朵灵敏、喜欢挑错，能听写含糊的口语，重叠混杂的对话等。少犯、不犯语法和拼写错误，对专有名词和术语等关键点有敏锐感知。</li>
+  <li>中文流畅、清晰、简洁，行文符合中文用语习惯。能在保证传达原意的情况下灵活运用不同句式，变换合理语序，尤其是对副词和语句逻辑关系的处理。</li>
+  <li>对科技数码产品有折腾经验，包括但不限于：PC、准系统、游戏本、服务器、网络设备、NAS；水冷系统、计算机配件；相机、手机、电视、显示器、音频设备。</li>
+  <li>有金工、木工、3D打印等手工经验，了解相关领域中英术语。</li>
+  <li>了解英文网络流行用语、常见哏、北美流行文化。</li>
+</ul>
+
+<h2 id="申请方式">申请方式</h2>
+
+<p>本组通过试译的方式选拔申请者。<br />
+请听写下附视频中的英文并用简体中文翻译。
+<a href="https://pan.baidu.com/s/1hrXPso8">NixieSubs_Test_Apple_Watch_seg.mp4</a></p>
+
+<p>随稿件请附带申请人的详细介绍，包括：</p>
+
+<ul>
+  <li>与招募要求相符、相关的经验及背景</li>
+  <li>列举平日主要摄取，自认为对工作有益的中英文媒体（视频、文章、博客等，形式不限）</li>
+  <li>其他申请人认为自己有助于工作的特长和属性</li>
+</ul>
+
+<p>完成后请将个人介绍与双语字幕稿直接贴入<strong>邮件正文</strong>，发送到<code class="language-plaintext highlighter-rouge">lttchina@linusmediagroup.com</code>。</p>
+
+<h3 id="要求与提示">要求与提示</h3>
+
+<ul>
+  <li><strong>请不要将稿件通过邮件附件发送，否则有可能被拦截丢失。</strong></li>
+  <li>提交的翻译稿请按照此页展示的格式编排。<br />
+<a href="">placeholder</a><br />
+格式与断句良好的稿件更容易通过。</li>
+  <li>稿件无需以带时间戳的字幕文件提交(<code class="language-plaintext highlighter-rouge">.ass</code>，<code class="language-plaintext highlighter-rouge">.srt</code>等)，但如果愿意可以将字幕文件以纯文本形式贴在邮件正文发送。</li>
+  <li>充足的经验与背景介绍有助于提高录用几率。<br />
+相关经验的内容可参考本页内容：<br />
+<a href="">placeholder</a></li>
+</ul>
+
+<h2 id="后续回复">后续回复</h2>
+
+<p>申请人稿件寄出后会在<em>placeholder</em>内开始审核。</p>
+
+<p>我方会主动联系被录用者。在<em>placeholder</em>后未收到我方回信即为申请未被接受，原因默认为申请稿质量未达要求。</p>
+
+<p>被拒绝申请者可在精修稿件、精进水平后再度提交。</p>]]></content><author><name>kilo</name></author><summary type="html"><![CDATA[辉光字幕组提供有偿视频字幕翻译服务，接受中-英语言对委托，在此招募各路有志之士加入我们。 我们的主要客户为莱纳斯传媒集团（Linus Media Group），加拿大Youtube科技媒体，同时也是Youtube最大的视频博主之一。 工资待遇 翻译工资每分钟 USD$3.70, 不需要打轴。 工资月结，没有最低限制。 入组后积累足够经验且质量上佳者可晋升校对。校对工作另计工作量和工资。 应征者要求 对翻译工作有兴趣，有足够英语理解能力和中文写作水平，了解机器翻译的能力极限和普遍水平。 经常观看英文视频（包括各视频平台无字幕英文原声视频和英文原声影视剧等），尤其是Linus Media Group旗下各频道视频（LinusTechTips、TechQuickie、ShortCircuit、Mac Address等）。 了解中英科技术语，能理解深度技术测评与剖析，对不理解、不了解的领域和术语等有通过网络搜索即可迅速理解并简要解释的能力。 下笔严谨、耳朵灵敏、喜欢挑错，能听写含糊的口语，重叠混杂的对话等。少犯、不犯语法和拼写错误，对专有名词和术语等关键点有敏锐感知。 中文流畅、清晰、简洁，行文符合中文用语习惯。能在保证传达原意的情况下灵活运用不同句式，变换合理语序，尤其是对副词和语句逻辑关系的处理。 对科技数码产品有折腾经验，包括但不限于：PC、准系统、游戏本、服务器、网络设备、NAS；水冷系统、计算机配件；相机、手机、电视、显示器、音频设备。 有金工、木工、3D打印等手工经验，了解相关领域中英术语。 了解英文网络流行用语、常见哏、北美流行文化。 申请方式 本组通过试译的方式选拔申请者。 请听写下附视频中的英文并用简体中文翻译。 NixieSubs_Test_Apple_Watch_seg.mp4 随稿件请附带申请人的详细介绍，包括： 与招募要求相符、相关的经验及背景 列举平日主要摄取，自认为对工作有益的中英文媒体（视频、文章、博客等，形式不限） 其他申请人认为自己有助于工作的特长和属性 完成后请将个人介绍与双语字幕稿直接贴入邮件正文，发送到lttchina@linusmediagroup.com。 要求与提示 请不要将稿件通过邮件附件发送，否则有可能被拦截丢失。 提交的翻译稿请按照此页展示的格式编排。 placeholder 格式与断句良好的稿件更容易通过。 稿件无需以带时间戳的字幕文件提交(.ass，.srt等)，但如果愿意可以将字幕文件以纯文本形式贴在邮件正文发送。 充足的经验与背景介绍有助于提高录用几率。 相关经验的内容可参考本页内容： placeholder 后续回复 申请人稿件寄出后会在placeholder内开始审核。 我方会主动联系被录用者。在placeholder后未收到我方回信即为申请未被接受，原因默认为申请稿质量未达要求。 被拒绝申请者可在精修稿件、精进水平后再度提交。]]></summary></entry></feed>
