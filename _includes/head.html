@@ -2,7 +2,11 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ page.title }}丨{{ site.title }}</title>
+  {% if page.title == "主页"  %}
+    <title>{{ site.title }}</title>
+  {% else %}
+    <title>{{ page.title }}丨{{ site.title }}</title>
+  {% endif %}
   {%- seo title=false -%}
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   {%- feed_meta -%}
