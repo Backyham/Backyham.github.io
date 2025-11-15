@@ -3,7 +3,7 @@ layout: page
 title: 关于辉光
 permalink: /about
 ---
-![Translated by NixieSubs](assets/nixie.png)
+![Translated by NixieSubs](/assets/nixie.png)
 
 辉光字幕组致力于英文视频翻译，主攻科技数码，让观众通过我们的翻译欣赏那些具有启发性、教育性、娱乐性的视频。
 
